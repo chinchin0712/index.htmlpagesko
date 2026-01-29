@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Poppins", sans-serif;
+            background: #fce4ec;
+            color: #444;
+        }
+        nav {
+            background: #f8bbd0;
+            padding: 15px 20px;
+            text-align: center;
+            font-weight: 600;
+            border-bottom: 2px solid #f48fb1;
+        }
+        nav a {
+            text-decoration: none;
+            padding: 8px 15px;
+            color: #fff;
+            border-radius: 20px;
+            margin: 0 10px;
+            background: #f48fb1;
+            transition: 0.2s;
+        }
+        nav a:hover {
+            background: #ec407a;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 30px;
+            background: #ffffffcc;
+            border-radius: 18px;
+            margin-top: 40px;
+        }
+
+        h1, h2 {
+            color: #d81b60;
+            text-align: center;
+        }
+
+        p {
+            line-height: 1.7;
+            font-size: 1rem;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #f8bbd0;
+            margin-top: 50px;
+            color: white;
+            font-size: 0.9rem;
+        }
+
+        .contact-box {
+            margin-top: 100px;
+            padding: 50px;
+            background: #fce4ec;
+            border-radius: 20px;
+            border: 1px solid #f8bbd0;
+        }
+
+        label {
+            font-weight: 700;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            border-radius: 10px;
+            border: 1px solid #f48fb1;
+            margin-top: 5px;
+            font-family: inherit;
+        }
+
+        button {
+            background: #f06292;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 20px;
+            border: none;
+            cursor: pointer;
+            margin-top: 10px;
+            transition: 0.2s;
+        }
+
+        button:hover {
+            background: #ec407a;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About Me</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <h1>About Me</h1>
+        <p>
+            Hi! I'm a soft girl with a gentle heart, tahimik, mahiyain, pero sobra akong clingy once I’m comfortable. 
+            I’m the type who loves hugs, kisses, and any kind of warm physical touch. Minsan jolly ako, 
+            minsan nakakatawa, pero most of the time I’m calm, soft, and quiet.
+        </p>
+
+        <p>
+            I’m an overthinker, but I’m also mabait, masayahin, and surprisingly mature kahit playful ako. 
+            I have a very long patience, and I always try to understand everyone around me. 
+            I may be “mahina sa lahat ng bagay,” pero my heart is strong in loving people genuinely.
+        </p>
+        
+           <h2> My Type (Friend + Personal Type)</h2>
+            I’m the type of friend na palaging nandiyan, the listener, the loyal one, the “mother friend,” 
+            the clingy one, and the super protective friend. When I care about someone, I really care deeply.  
+            I’m soft, gentle, and full of affection. I give warm presence, quiet comfort, and silent loyalty.
+        </p>
+
+        <h2> What I Need</h2>
+        <p>
+            I need affection, understanding, honesty, reassurance, and someone who sees my softness as a strength.  
+            I don’t ask for much — just warm love and gentle presence.
+        </p>
+
+        <h2> What I Want in Life</h2>
+        <p>
+            A simple and peaceful life.  
+            To be loved genuinely.  
+            To be appreciated.  
+            To grow and heal slowly.  
+        </p>
+
+        <h2 id="contact"> Contact Me</h2>
+        <div class="contact-box">
+            <form>
+                <label>Name:</label>
+                <input type="text" placeholder="Your name">
+
+                <label>Email:</label>
+                <input type="email" placeholder="Your email">
+
+                <label>Message:</label>
+                <textarea rows="4" placeholder="Write something here..."></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        © 2025 Soft Girl Portfolio • Made with Love ni Chin
+    </footer>
+
+</body>
+</html>
